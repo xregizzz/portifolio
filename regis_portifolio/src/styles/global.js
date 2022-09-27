@@ -15,12 +15,14 @@ export default createGlobalStyle`
     --grey-3: #868E96;
     --grey-2: #E9ECEF;
     --grey-1: #F8F9FA;
+    --grey-0: #0A0A0B;
     --white: #FFFFFF;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,li{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+    color: var(--grey-2);
 }
 
 button{
